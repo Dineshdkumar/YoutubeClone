@@ -1,0 +1,109 @@
+.videoHorizontal {
+  border-bottom: 0.3px solid rgb(185, 184, 184);
+  cursor: pointer;
+}
+.videoHorizontal-left {
+  position: relative;
+  text-align: center;
+  padding-left: 0 !important;
+}
+
+.videoHorizontal-thumbnail {
+  width: 100%;
+}
+.videoHorizontal-wrapper {
+  width: 100%;
+}
+.videoHorizontal-duration {
+  position: absolute;
+  bottom: 0.3rem;
+  right: 0.7rem;
+  padding: 0.3rem;
+  color: rgb(255, 255, 255);
+  font-size: 0.7rem;
+  background-color: rgb(34, 31, 31);
+}
+
+.videoHorizontal-details {
+  font-size: 0.8rem;
+  width: 100%;
+  padding: px;
+  margin-bottom: 5px;
+}
+.videoHorizontal-title {
+  letter-spacing: 0.3px;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0 rem;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+}
+
+.videoHorizontal-channelName {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.videoHorizontal-channel img {
+  width: 5vw;
+  height: 10vh;
+
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+.videoHorizontal-channelT {
+  width: 50%;
+  border-radius: 50%;
+  height: 20vh;
+}
+.videoHorizontal-desc {
+  font-size: 0.95rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+}
+
+@media only screen and (max-width: 590px) {
+  .videoHorizontal {
+    font-size: 0.8rem;
+   
+  }
+  .videoHorizontal-details {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+  }
+
+
+  .videoHorizontal-channel {
+    margin: 0.1rem 0;
+  }
+  .videoHorizontal-channel img {
+    display: none;
+  }
+  .videoHorizontal-channel p {
+    font-size: 0.8rem;
+  }
+
+  .videoHorizontal-title {
+    font-size: 0.8rem;
+    margin-bottom: 0rem;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+  }
+  .videoHorizontal-desc {
+    display: none;
+  }
+}

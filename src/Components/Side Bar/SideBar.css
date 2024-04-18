@@ -1,0 +1,41 @@
+li {
+  padding: 0.8rem;
+  list-style-type: none;
+  cursor: pointer;
+}
+li span {
+  padding: 15px;
+}
+li:hover {
+  background-color: #b1bdb4;
+}
+hr:hover {
+  background-color: #b1bdb4;
+}
+
+.sideBar {
+  transition: transform 0.2s ease-in;
+  position: sticky;
+  top: 10vh;
+  left: 0;
+}
+.sideBar.open {
+  background-color: rgb(247, 251, 255);
+  transform: translateX(0);
+}
+
+@media only screen and (max-width: 800px) {
+  .sideBar {
+    width: 3vw;
+  }
+  span {
+    display: none;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .sideBar {
+    transform: translateX(-100%);
+    position: fixed;
+    z-index: 999;
+  }
+}

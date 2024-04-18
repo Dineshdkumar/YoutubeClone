@@ -1,0 +1,14 @@
+
+.WatchScreen-player {
+    height: 60vh;
+    background-color: #353946;
+    width: 100%;
+    margin-bottom: 2rem;
+ }
+ 
+ @media only screen and (max-width: 590px) {
+    .WatchScreen-player {
+       height: 30vh;
+    }
+ }
+ 

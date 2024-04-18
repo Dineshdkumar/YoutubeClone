@@ -1,0 +1,25 @@
+.Cat-Container::-webkit-scrollbar {
+  width: 0;
+}
+.Cat-span {
+  border: 2px solid #dbdbdb;
+  padding: 0.5rem;
+  white-space: nowrap;
+  border-radius: 0.2rem;
+  margin: 0 1rem;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 1rem;
+  line-height: .8rem;
+  font-weight: 500;
+  cursor: pointer;
+ 
+ 
+}
+.Cat-span:hover {
+  background-color: rgb(212, 211, 211);
+}
+.Cat-span.active {
+  background-color: rgb(2, 2, 2);
+  border-color: black;
+color: #ffffff;
+}

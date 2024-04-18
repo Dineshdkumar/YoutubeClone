@@ -1,0 +1,41 @@
+.video{
+    cursor: pointer;
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    font-weight: bold;
+    font-size: .9rem;
+}
+.video-top img{
+    width: 100%;
+}
+.video-top{
+position: relative;
+}
+.video-top.video-duration{
+    position: absolute;
+    bottom: 0.1rem;
+    padding: 5px;
+    right: 0.12rem
+}
+.video-top.lazy-load-image-background{
+    width: 100%;
+}
+.video-details{
+    display: flex;
+    align-items: center;
+    margin: 0 2px;
+}
+.video-channel {
+display: flex;
+align-items: center;
+margin-top: .5rem;
+}
+.video-channel p{
+  margin-top: .7rem;
+  padding-left: .4rem;
+}
+.video-channel img{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+}

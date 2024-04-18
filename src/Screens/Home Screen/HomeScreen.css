@@ -1,0 +1,13 @@
+.infinite-scroll-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .infinite-scroll-container .spinner-border {
+    display: block;
+    margin: 20px auto;
+  }
+  

@@ -1,0 +1,35 @@
+.videoMetaData-top span {
+  cursor: pointer;
+}
+.videoMetaData button {
+  background-color: red;
+  color: #fff;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.videoMetaData-Channel {
+  border-top: 0.2px solid rgb(201, 197, 197);
+  border-bottom: 0.2px solid rgb(201, 197, 197);
+}
+.videoMetaData-description {
+  font-size: 0.9rem;
+  white-space: pre-line;
+}
+.showMoreText {
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  margin: 1rem 0;
+  color: #1b1a1a;
+  font-weight: 500;
+}
+.btn-gray {
+  background-color: gray;
+}
+
+@media only screen and (max-width: 590px) {
+  .videoMetaData h5 {
+    font-size: 1rem;
+  }
+}

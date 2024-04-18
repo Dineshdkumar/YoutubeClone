@@ -1,0 +1,17 @@
+.Comment {
+  font-size: 0.9rem;
+  border-bottom: 1px solid rgb(168, 167, 167);
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+.Comment-header {
+  color: #000000;
+  font-weight: 510;
+}
+
+.Comment-body {
+  overflow: hidden;
+  padding-left: 6px;
+}
