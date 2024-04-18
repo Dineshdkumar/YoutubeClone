@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
-import { getVideoBySearch } from "../../../actions/videos.action";
+import { getVideoBySearch } from "../../actions/videos.action";
 import { Container } from "react-bootstrap";
-import VideoHorizontal from "../../../Components/VideoHorizontal/VideoHorizontal";
+import VideoHorizontal from "../../Components/VideoHorizontal/VideoHorizontal";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 
 function SearchScreen() {

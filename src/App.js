@@ -4,15 +4,10 @@ import { Container } from "react-bootstrap";
 import SideBar from "./Components/Side Bar/SideBar";
 import HomeScreen from "./Screens/Home Screen/HomeScreen";
 // import LoginScreen from "./Screens/LoginScreen";
-import {
-  HashRouter as Router,
-  Routes,
-  Route,
-  Outlet,
-} from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Outlet } from "react-router-dom";
 import "./App.css";
 import WatchScreen from "./Screens/Watch Screen/WatchScreen";
-import SearchScreen from "./Screens/Home Screen/Search Screen/SearchScreen";
+import SearchScreen from "./Screens/Search Screen Folder/SearchScreen";
 
 const Layout = ({ children }) => {
   const [sideBar, toggleSideBar] = useState(false);
