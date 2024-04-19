@@ -1,3 +1,10 @@
+
+.ytlogo{
+  margin-left: 1rem;
+}
+.avatarlogo{
+  background-color: transparent;
+}
 @media only screen and (max-width: 590px) {
   .form-head {
     width: 18rem;
