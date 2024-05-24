@@ -1,0 +1,14 @@
+<project name="my-frontend-app" basedir="." default="war">
+    <target name="war" depends="compile">
+        <war destfile="dist/my-frontend-app-1.0-SNAPSHOT.war" webxml="src/main/webapp/WEB-INF/web.xml">
+            <fileset dir="src/main/webapp"/>
+            <lib dir="lib"/>
+            <classes dir="build/classes"/>
+        </war>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="build/classes"/>
+        <javac srcdir="src/main/java" destdir="build/classes"/>
+    </target>
+</project>
